@@ -16,7 +16,7 @@ This is a simple SAPUI5 application built using MVC architecture.
 - MVC Architecture
 
 ## Live Application
-https://aarya004.github.io/sapui5-employee-app/
+https://aarya004.github.io/sapui5-employee-app1/
 
 ## GitHub Repository
 https://github.com/aarya004/sapui5-employee-app
