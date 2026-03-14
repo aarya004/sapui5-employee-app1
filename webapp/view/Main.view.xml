@@ -1,0 +1,36 @@
+<mvc:View
+ controllerName="demo.controller.Main"
+ xmlns:mvc="sap.ui.core.mvc"
+ xmlns="sap.m">
+
+<VBox class="sapUiSmallMargin">
+
+<Title text="Employee Management"/>
+
+<Input
+ id="nameInput"
+ placeholder="Enter Employee Name"/>
+
+<Input
+ id="roleInput"
+ placeholder="Enter Employee Role"/>
+
+<Button
+ text="Add Employee"
+ press="onAddEmployee"/>
+
+<List
+ headerText="Employee List"
+ items="{/employees}">
+
+<items>
+<StandardListItem
+ title="{name}"
+ description="{role}"/>
+</items>
+
+</List>
+
+</VBox>
+
+</mvc:View>
